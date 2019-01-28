@@ -5,10 +5,9 @@ import java.util.Random;
 public class Terning {
 	private static Random random = new Random();
 	private Integer verdi;
-	private int nr;
+
 	
-	public Terning(int nr){
-		this.nr = nr;
+	public Terning(){
 	}
 	
 	public void trill(){
